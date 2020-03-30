@@ -1,0 +1,12 @@
+button {
+  padding: 0.5rem 0.75rem;
+  background-color: #cccccc;
+  border: none;
+  border-radius: 0.25rem;
+  &:hover {
+    transition: 1s/8 ease-in-out;
+    border-width: 1rem/16;
+    border-style: solid;
+    border-color: #ff0000;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "author": {
+    "email": "jonah@jonah.pw",
+    "name": "Jonah Snider",
+    "url": "https://jonah.pw"
+  },
+  "devDependencies": {
+    "postcss-scss": "^2.0.0",
+    "prettier": "^2.0.2",
+    "sass": "^1.26.3",
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.16.0"
+  },
+  "license": "MIT",
+  "main": "src/index.scss",
+  "name": "css-library",
+  "scripts": {
+    "lint": "stylelint \"src/**/*.scss\"",
+    "style": "prettier --check .",
+    "build": "sass src/index.scss out/index.css"
+  },
+  "version": "0.0.0-development"
+}
