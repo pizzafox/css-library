@@ -31,6 +31,12 @@ jobs:
         run: yarn install
       - name: Compile CSS
         run: yarn run build
+      - name: Upload CSS
+        uses: actions/upload-artifact@v1
+        with:
+          name: css
+          path: out
+
   lint:
     name: Lint
 
