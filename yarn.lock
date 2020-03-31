@@ -775,6 +775,7 @@ __metadata:
   dependencies:
     postcss-scss: ^2.0.0
     prettier: ^2.0.2
+    rimraf: ^3.0.2
     sass: ^1.26.3
     stylelint: ^13.2.1
     stylelint-config-recommended-scss: ^4.2.0
@@ -2583,6 +2584,17 @@ fsevents@~2.1.2:
   bin:
     rimraf: ./bin.js
   checksum: 2/059efac2838ef917d4d1da1d80e724ad28c120cdf14ca6ed27ca72db2dc70be3e25421cba5947c6ec3d804c1d2bb9a247254653816ee0722bf943ffdd1ae19ef
+  languageName: node
+  linkType: hard
+
+"rimraf@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "rimraf@npm:3.0.2"
+  dependencies:
+    glob: ^7.1.3
+  bin:
+    rimraf: bin.js
+  checksum: 2/f0de3e445581e64a8a077af476cc30708e659f5779ec2ca2a161556d0792aa318a685923798ae22055b4ecd02b9aff444ef619578f7af53cf8e0e248031e3dee
   languageName: node
   linkType: hard
 
