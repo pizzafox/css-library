@@ -222,11 +222,15 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/node,linux,macos,windows,sublimetext,visualstudiocode
 
 ### Yarn ###
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
+.yarn
+.pnp.js
 
-### Misc ###
-# Compiled CSS output
-css
+### Misc non-code files ###
+examples
+.gitignore
+.editorconfig
+.yarnrc.yml
+.stylelintrc.json
+.prettierrc
+.prettierignore
+.github

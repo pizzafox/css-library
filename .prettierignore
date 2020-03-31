@@ -225,5 +225,6 @@ $RECYCLE.BIN/
 .yarn/*
 .pnp.*
 
-### Parcel
-.parcel-cache
+### Misc ###
+# Compiled CSS output
+css

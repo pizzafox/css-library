@@ -13,12 +13,13 @@
     "stylelint-scss": "^3.16.0"
   },
   "license": "MIT",
-  "main": "src/index.scss",
+  "main": "css/css-library.css",
   "name": "css-library",
   "scripts": {
+    "build": "sass --style compressed src:css",
     "lint": "stylelint \"src/**/*.scss\"",
-    "style": "prettier --check .",
-    "build": "sass src/index.scss out/index.css"
+    "prebuild": "rimraf css",
+    "style": "prettier --check ."
   },
   "version": "0.0.0-development"
 }
