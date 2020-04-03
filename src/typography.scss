@@ -1,5 +1,21 @@
+// Safari for OS X and iOS (San Francisco)
+$font_safari: -apple-system;
+// Chrome < 56 for OS X (San Francisco)
+$font_chrome_osx: BlinkMacSystemFont;
+// Windows
+$font_windows: "Segoe UI";
+// Android
+$font_android: "Roboto";
+// Basic web fallback
+$font_web: "Helvetica Neue", Arial, sans-serif;
+// Emoji fonts
+$font_emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-family-sans-serif: $font_safari, $font_chrome_osx, $font_windows,
+  $font_android, $font_web, $font_emoji !default;
+
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $font-family-sans-serif;
   font-size: 16px;
 
   @media screen and (min-width: 900px) {
