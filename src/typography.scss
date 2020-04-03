@@ -11,11 +11,11 @@ $font_web: "Helvetica Neue", Arial, sans-serif;
 // Emoji fonts
 $font_emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-$font-family-sans-serif: $font_safari, $font_chrome_osx, $font_windows,
+$font_family_sans_serif: $font_safari, $font_chrome_osx, $font_windows,
   $font_android, $font_web, $font_emoji !default;
 
 html {
-  font-family: $font-family-sans-serif;
+  font-family: $font_family_sans_serif;
   font-size: 16px;
 
   @media screen and (min-width: 900px) {
