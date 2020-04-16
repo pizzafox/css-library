@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: css
-          path: out
+          path: css
 
   lint:
     name: Lint
