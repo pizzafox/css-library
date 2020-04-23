@@ -772,7 +772,7 @@ __metadata:
   resolution: "css-library@workspace:."
   dependencies:
     postcss-scss: 2.0.0
-    prettier: 2.0.4
+    prettier: 2.0.5
     rimraf: 3.0.2
     sass: 1.26.3
     stylelint: 13.3.2
@@ -2300,12 +2300,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.0.4":
-  version: 2.0.4
-  resolution: "prettier@npm:2.0.4"
+"prettier@npm:2.0.5":
+  version: 2.0.5
+  resolution: "prettier@npm:2.0.5"
   bin:
     prettier: bin-prettier.js
-  checksum: 2/a43343ac00250ce239439a723e5b0860a46e4703542b925c962d8c3dfceab1f69a326ba4c8de2f24ad39c4daef07831439b0b237cda9c63e4981164075e7dc5a
+  checksum: 2/d249d89361870a29b20e8b268cb09e908490b8c9e21f70393d12a213701f29ba7e95b7f9ce0ad63929c16ce475176742481911737ae3da4a498873e4a3b90990
   languageName: node
   linkType: hard
 
