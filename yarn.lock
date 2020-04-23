@@ -775,7 +775,7 @@ __metadata:
     prettier: 2.0.4
     rimraf: 3.0.2
     sass: 1.26.3
-    stylelint: 13.3.2
+    stylelint: 13.3.3
     stylelint-config-recommended-scss: 4.2.0
     stylelint-scss: 3.17.1
   languageName: unknown
@@ -2898,9 +2898,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint@npm:13.3.2":
-  version: 13.3.2
-  resolution: "stylelint@npm:13.3.2"
+"stylelint@npm:13.3.3":
+  version: 13.3.3
+  resolution: "stylelint@npm:13.3.3"
   dependencies:
     "@stylelint/postcss-css-in-js": ^0.37.1
     "@stylelint/postcss-markdown": ^0.36.1
@@ -2952,7 +2952,7 @@ fsevents@~2.1.2:
     write-file-atomic: ^3.0.3
   bin:
     stylelint: bin/stylelint.js
-  checksum: 2/3afc4f2c252b69f5b2fabe805bbbba1c8da585ff20db040e77992c31a900887a87b06a4eeeb015bf2d33e70e07f25adeafda6ad5a8fb3004ce3d99ecb57bf8d7
+  checksum: 2/b523f716580cb4490597f659e254f1c178f8da9351b2d0cb8482d291a802e32f14097153d65fb3f1ddc3a70dfc32edba64c3dae5b5d82acf046b21ee89b8e532
   languageName: node
   linkType: hard
 
