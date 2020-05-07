@@ -777,7 +777,7 @@ __metadata:
     sass: 1.26.5
     stylelint: 13.3.3
     stylelint-config-recommended-scss: 4.2.0
-    stylelint-scss: 3.17.1
+    stylelint-scss: 3.17.2
   languageName: unknown
   linkType: soft
 
@@ -2289,6 +2289,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"postcss-value-parser@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "postcss-value-parser@npm:4.1.0"
+  checksum: 2/70831403886859289f650550a38889857022c5bbe264fd5d39cfad5207b3e1d33422edc031c1a922f3ae29d0dff98837a8bf126c840374d2b0079e7d57cf7d71
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^7.0.0, postcss@npm:^7.0.14, postcss@npm:^7.0.2, postcss@npm:^7.0.21, postcss@npm:^7.0.26, postcss@npm:^7.0.27, postcss@npm:^7.0.7":
   version: 7.0.27
   resolution: "postcss@npm:7.0.27"
@@ -2883,18 +2890,18 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:3.17.1":
-  version: 3.17.1
-  resolution: "stylelint-scss@npm:3.17.1"
+"stylelint-scss@npm:3.17.2":
+  version: 3.17.2
+  resolution: "stylelint-scss@npm:3.17.2"
   dependencies:
     lodash: ^4.17.15
     postcss-media-query-parser: ^0.2.3
     postcss-resolve-nested-selector: ^0.1.1
     postcss-selector-parser: ^6.0.2
-    postcss-value-parser: ^4.0.3
+    postcss-value-parser: ^4.1.0
   peerDependencies:
     stylelint: ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
-  checksum: 2/6b31ac5d38cc7e1f871b5fa9c887d520e1c7f0449ca189cf0c8cbb3cf1818a36123b3254127de36780234087536dd628315085daf32e3aab942be339a5ffd38e
+  checksum: 2/d47cb835a4cb3a07161d6b99506885ad4f95886a8784178d0c722db24da93e5fc5354380dcee43edd4f12f5b9fc66f6cea71cee676ad4a625ebfae0c77f08413
   languageName: node
   linkType: hard
 
