@@ -1,27 +1,27 @@
 {
-  "author": {
-    "email": "jonah@jonah.pw",
-    "name": "Jonah Snider",
-    "url": "https://jonah.pw"
-  },
-  "devDependencies": {
-    "postcss-scss": "2.0.0",
-    "prettier": "2.0.5",
-    "rimraf": "3.0.2",
-    "sass": "1.26.5",
-    "stylelint": "13.3.3",
-    "stylelint-config-recommended-scss": "4.2.0",
-    "stylelint-config-xo-scss": "^0.12.0",
-    "stylelint-scss": "3.17.2"
-  },
-  "license": "MIT",
-  "main": "css/css-library.css",
-  "name": "css-library",
-  "scripts": {
-    "build": "sass --style compressed src:css",
-    "lint": "stylelint \"src/**/*.scss\"",
-    "prebuild": "rimraf css",
-    "style": "prettier --check ."
-  },
-  "version": "0.0.0-development"
+	"author": {
+		"email": "jonah@jonah.pw",
+		"name": "Jonah Snider",
+		"url": "https://jonah.pw"
+	},
+	"devDependencies": {
+		"postcss-scss": "2.0.0",
+		"prettier": "2.0.5",
+		"rimraf": "3.0.2",
+		"sass": "1.26.5",
+		"stylelint": "13.3.3",
+		"stylelint-config-recommended-scss": "4.2.0",
+		"stylelint-config-xo-scss": "0.12.0",
+		"stylelint-scss": "3.17.2"
+	},
+	"license": "MIT",
+	"main": "css/css-library.css",
+	"name": "css-library",
+	"scripts": {
+		"build": "sass --style compressed src:css",
+		"lint": "stylelint \"src/**/*.scss\"",
+		"prebuild": "rimraf css",
+		"style": "prettier --check ."
+	},
+	"version": "0.0.0-development"
 }

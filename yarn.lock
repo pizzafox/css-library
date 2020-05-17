@@ -777,7 +777,7 @@ __metadata:
     sass: 1.26.5
     stylelint: 13.3.3
     stylelint-config-recommended-scss: 4.2.0
-    stylelint-config-xo-scss: ^0.12.0
+    stylelint-config-xo-scss: 0.12.0
     stylelint-scss: 3.17.2
   languageName: unknown
   linkType: soft
@@ -2901,7 +2901,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-config-xo-scss@npm:^0.12.0":
+"stylelint-config-xo-scss@npm:0.12.0":
   version: 0.12.0
   resolution: "stylelint-config-xo-scss@npm:0.12.0"
   dependencies:
