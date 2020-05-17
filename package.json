@@ -11,7 +11,7 @@
     "sass": "1.26.5",
     "stylelint": "13.3.3",
     "stylelint-config-recommended-scss": "4.2.0",
-    "stylelint-config-xo-scss": "^0.12.0",
+    "stylelint-config-xo-scss": "0.12.0",
     "stylelint-scss": "3.17.2"
   },
   "license": "MIT",
