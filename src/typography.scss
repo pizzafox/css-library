@@ -11,8 +11,7 @@ $font-web: 'Helvetica Neue', arial, sans-serif;
 // Emoji fonts
 $font-emoji: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-$font-family-sans-serif: $font-safari, $font-chrome-osx, $font-windows,
-	$font-android, $font-web, $font-emoji !default;
+$font-family-sans-serif: $font-safari, $font-chrome-osx, $font-windows, $font-android, $font-web, $font-emoji !default;
 
 html {
 	font-family: $font-family-sans-serif;
