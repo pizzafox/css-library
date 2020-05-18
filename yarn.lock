@@ -771,7 +771,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "css-library@workspace:."
   dependencies:
-    postcss-scss: 2.0.0
+    postcss-scss: 2.1.0
     prettier: 2.0.5
     rimraf: 3.0.2
     sass: 1.26.5
@@ -2254,7 +2254,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:2.0.0, postcss-scss@npm:^2.0.0":
+"postcss-scss@npm:2.1.0":
+  version: 2.1.0
+  resolution: "postcss-scss@npm:2.1.0"
+  dependencies:
+    postcss: ^7.0.6
+  checksum: 2/45220ffbf90b18e4253d7a8d66455406da1de05211a9480723831b94dbeedffae1760d052e7355d267c9d90338ef0a4c8ce4e5585486d256c554ec63f879d6f5
+  languageName: node
+  linkType: hard
+
+"postcss-scss@npm:^2.0.0":
   version: 2.0.0
   resolution: "postcss-scss@npm:2.0.0"
   dependencies:
@@ -2315,6 +2324,17 @@ fsevents@~2.1.2:
     source-map: ^0.6.1
     supports-color: ^6.1.0
   checksum: 2/4ad75d21cccd93759cc9c58307886c4b78c0521e03217561e54c48a86ab1199ccc3c9f8364d495db993a08a00008973f2a9cffc46208b632ee8f999c96ce57bb
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^7.0.6":
+  version: 7.0.30
+  resolution: "postcss@npm:7.0.30"
+  dependencies:
+    chalk: ^2.4.2
+    source-map: ^0.6.1
+    supports-color: ^6.1.0
+  checksum: 2/965203dcfe345370278da767a9b0c5f2d3b4f8728cb14071557591988aec25332de22c743ad1a1cd33fdbadf3390caf0931658243026d119890949bd834660ca
   languageName: node
   linkType: hard
 
