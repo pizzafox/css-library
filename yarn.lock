@@ -771,7 +771,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "css-library@workspace:."
   dependencies:
-    postcss-scss: 2.1.0
+    postcss-scss: 2.1.1
     prettier: 2.0.5
     rimraf: 3.0.2
     sass: 1.26.5
@@ -2254,12 +2254,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:2.1.0":
-  version: 2.1.0
-  resolution: "postcss-scss@npm:2.1.0"
+"postcss-scss@npm:2.1.1":
+  version: 2.1.1
+  resolution: "postcss-scss@npm:2.1.1"
   dependencies:
     postcss: ^7.0.6
-  checksum: 2/45220ffbf90b18e4253d7a8d66455406da1de05211a9480723831b94dbeedffae1760d052e7355d267c9d90338ef0a4c8ce4e5585486d256c554ec63f879d6f5
+  checksum: 2/93db82274715260bb8abd5302c729e64f312090761fd2f991cf0654c79bc84c41f4b393ca2b65cf45aa46f414f66d7ff57745d6081b9b269659a37db5f6a5d24
   languageName: node
   linkType: hard
 
