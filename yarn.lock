@@ -788,7 +788,7 @@ __metadata:
     postcss-scss: 2.1.1
     prettier: 2.0.5
     rimraf: 3.0.2
-    sass: 1.26.7
+    sass: 1.26.8
     stylelint: 13.5.0
     stylelint-config-recommended-scss: 4.2.0
     stylelint-config-xo-scss: 0.12.0
@@ -2673,14 +2673,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"sass@npm:1.26.7":
-  version: 1.26.7
-  resolution: "sass@npm:1.26.7"
+"sass@npm:1.26.8":
+  version: 1.26.8
+  resolution: "sass@npm:1.26.8"
   dependencies:
     chokidar: ">=2.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 2/95193ea9a66a1ffc92a399bc98e647aa33e35aecd8a4fa761364f7fdce38dcbddb05109fc4139c167f8f5a79518bc1ec2f10e20dc653c80502a538b33a6bd865
+  checksum: 2/25e26756241ac708e48e7241642127bae00fa875816648ac203f8cc2d49fa00094118e6515a850dd78a328c48b9bc72056d85cfce8220f6ff353e37ab769b0d0
   languageName: node
   linkType: hard
 
