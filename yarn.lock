@@ -452,20 +452,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^9.7.6":
-  version: 9.7.6
-  resolution: "autoprefixer@npm:9.7.6"
+"autoprefixer@npm:^9.8.0":
+  version: 9.8.0
+  resolution: "autoprefixer@npm:9.8.0"
   dependencies:
-    browserslist: ^4.11.1
-    caniuse-lite: ^1.0.30001039
+    browserslist: ^4.12.0
+    caniuse-lite: ^1.0.30001061
     chalk: ^2.4.2
     normalize-range: ^0.1.2
     num2fraction: ^1.2.2
-    postcss: ^7.0.27
-    postcss-value-parser: ^4.0.3
+    postcss: ^7.0.30
+    postcss-value-parser: ^4.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 2/fee0546d1f89244b279b91e2b5cc4cbf0c0ada60006d670ba70bb555b87cc9919fda8105d516231c083c1befdd219b1c5b89555539c54251490fd94c2f74976b
+  checksum: 2/cae7f0c2a89b5e2df50703f4e8680a3030ffe09dc5c2aab0863d8e3901f3d5b002a18c25129f43f7f886c7e4b051605b03d055936478d39b17461b18b1f2d535
   languageName: node
   linkType: hard
 
@@ -532,17 +532,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.11.1":
-  version: 4.11.1
-  resolution: "browserslist@npm:4.11.1"
+"browserslist@npm:^4.12.0":
+  version: 4.12.0
+  resolution: "browserslist@npm:4.12.0"
   dependencies:
-    caniuse-lite: ^1.0.30001038
-    electron-to-chromium: ^1.3.390
+    caniuse-lite: ^1.0.30001043
+    electron-to-chromium: ^1.3.413
     node-releases: ^1.1.53
     pkg-up: ^2.0.0
   bin:
     browserslist: cli.js
-  checksum: 2/fdf7a5ab90fac4dd9ffbcc5c219afbe30a8deb16b2d6fe4277cf4271e12b59f1b464ace29fb4ff24896a11e14a02f4cc27a6a560575d2767b77a629d073deea4
+  checksum: 2/564af87b3300321d885c22b6fb010a4d702b1cc77591d684d8f79411d5df65b9290a043348bcb5e4ca96b423c703aeb83fa25979ee3b140b28c48fc965dea0ed
   languageName: node
   linkType: hard
 
@@ -578,10 +578,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001038, caniuse-lite@npm:^1.0.30001039":
-  version: 1.0.30001042
-  resolution: "caniuse-lite@npm:1.0.30001042"
-  checksum: 2/c3d01cabc94f51b12411371b51e162396db7292a4b54efa4b6f767e7925057c4f4dc64312779dfeaa9569105fed25efdc5964ee4d34c03b89efa4af95ad6cb77
+"caniuse-lite@npm:^1.0.30001043, caniuse-lite@npm:^1.0.30001061":
+  version: 1.0.30001078
+  resolution: "caniuse-lite@npm:1.0.30001078"
+  checksum: 2/b1b8ba57107b27b1d8b1eba01077cd52221a6ad5d4324a1dccee5a5092e1064920c09ed1c5656b4f93d7a33a4beaac9b9c044fd90e980539b47aeb35c42f4d9a
   languageName: node
   linkType: hard
 
@@ -789,7 +789,7 @@ __metadata:
     prettier: 2.0.5
     rimraf: 3.0.2
     sass: 1.26.8
-    stylelint: 13.5.0
+    stylelint: 13.6.0
     stylelint-config-recommended-scss: 4.2.0
     stylelint-config-xo-scss: 0.12.0
     stylelint-scss: 3.17.2
@@ -916,10 +916,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.3.390":
-  version: 1.3.408
-  resolution: "electron-to-chromium@npm:1.3.408"
-  checksum: 2/4c8179d7ed4012f4026280bd533203bb6b32220b441c6df084cfe8beed787e9fbf0b5e775e011e67c6a364bac960da10b6cc76f7cb0ec8ebeea11eea6c31a013
+"electron-to-chromium@npm:^1.3.413":
+  version: 1.3.463
+  resolution: "electron-to-chromium@npm:1.3.463"
+  checksum: 2/27f10984fe4c6eb600c21b128d9609b5b613dc645a47d22ce0e9f5f1a264d95ab3ecc6d27d0655756958ba7583657336fe63a5d09cf602f950e37f87c6e5c18c
   languageName: node
   linkType: hard
 
@@ -1230,9 +1230,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "globby@npm:11.0.0"
+"globby@npm:^11.0.1":
+  version: 11.0.1
+  resolution: "globby@npm:11.0.1"
   dependencies:
     array-union: ^2.1.0
     dir-glob: ^3.0.1
@@ -1240,7 +1240,7 @@ fsevents@~2.1.2:
     ignore: ^5.1.4
     merge2: ^1.3.0
     slash: ^3.0.0
-  checksum: 2/623a19a4114ae7d040068293890eb1641d0ddef920aac346037d305c96745fc225cbb988921d908f2df2bd0a36f3aca4f3dc746c446d3724a60adf1b27fd7764
+  checksum: 2/e7239e9e468c3692aec31dc97b5efc13dd21edf38820baeda98118ade39f475c4ff9e7610859eb4a3c75277ca2616e371265fec3c626aba5db4335bc41c59ac7
   languageName: node
   linkType: hard
 
@@ -1357,6 +1357,13 @@ fsevents@~2.1.2:
   version: 5.1.4
   resolution: "ignore@npm:5.1.4"
   checksum: 2/215721af976442f3836b5baa3c1e212c946aadb15609940f851d058b283c84950659bceb245faee7f5476a50d32999af4cdccb7f1c1e4446a728133584938e6c
+  languageName: node
+  linkType: hard
+
+"ignore@npm:^5.1.8":
+  version: 5.1.8
+  resolution: "ignore@npm:5.1.8"
+  checksum: 2/b08e3d5b5d94eca13475f29a5d47d221060e9cdd7e38d7647088e29d90130669a970fecbc4cdb41b8fa295c6673740c729d3dc05dadc381f593efb42282cbf9f
   languageName: node
   linkType: hard
 
@@ -2271,21 +2278,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:2.1.1":
+"postcss-scss@npm:2.1.1, postcss-scss@npm:^2.1.1":
   version: 2.1.1
   resolution: "postcss-scss@npm:2.1.1"
   dependencies:
     postcss: ^7.0.6
   checksum: 2/93db82274715260bb8abd5302c729e64f312090761fd2f991cf0654c79bc84c41f4b393ca2b65cf45aa46f414f66d7ff57745d6081b9b269659a37db5f6a5d24
-  languageName: node
-  linkType: hard
-
-"postcss-scss@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "postcss-scss@npm:2.0.0"
-  dependencies:
-    postcss: ^7.0.0
-  checksum: 2/8e4ece8f5f9d1366ff7d5b4731cdc9480099046816012f1e90e0ebb0ffca56b82c2221841484d91aac08b0a3202dad7a784764a9f8fcb77a65c04b2832bd5545
   languageName: node
   linkType: hard
 
@@ -2319,13 +2317,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "postcss-value-parser@npm:4.0.3"
-  checksum: 2/518a1fc1e84ae26a33673b8a9fae930c092a9ec2597a1c92360be73a5840504a4aa73aa55dd6b1c595f3f75457849a5310bf7cfe8752e415d8fdfdeeceeeee28
-  languageName: node
-  linkType: hard
-
 "postcss-value-parser@npm:^4.1.0":
   version: 4.1.0
   resolution: "postcss-value-parser@npm:4.1.0"
@@ -2333,7 +2324,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:^7.0.0, postcss@npm:^7.0.14, postcss@npm:^7.0.17, postcss@npm:^7.0.2, postcss@npm:^7.0.21, postcss@npm:^7.0.26, postcss@npm:^7.0.27, postcss@npm:^7.0.7":
+"postcss@npm:^7.0.14, postcss@npm:^7.0.17, postcss@npm:^7.0.2, postcss@npm:^7.0.21, postcss@npm:^7.0.26, postcss@npm:^7.0.27, postcss@npm:^7.0.7":
   version: 7.0.27
   resolution: "postcss@npm:7.0.27"
   dependencies:
@@ -2352,6 +2343,17 @@ fsevents@~2.1.2:
     source-map: ^0.6.1
     supports-color: ^6.1.0
   checksum: 2/965203dcfe345370278da767a9b0c5f2d3b4f8728cb14071557591988aec25332de22c743ad1a1cd33fdbadf3390caf0931658243026d119890949bd834660ca
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^7.0.32":
+  version: 7.0.32
+  resolution: "postcss@npm:7.0.32"
+  dependencies:
+    chalk: ^2.4.2
+    source-map: ^0.6.1
+    supports-color: ^6.1.0
+  checksum: 2/340f4f6ca6bd37961927f68bf7e38d071a7cba0468240cbba64ccf78012b2acbec974491284cb200e438dd3e655314e6d9508562523cbf9a49d5b00fd7e769fa
   languageName: node
   linkType: hard
 
@@ -3001,13 +3003,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint@npm:13.5.0":
-  version: 13.5.0
-  resolution: "stylelint@npm:13.5.0"
+"stylelint@npm:13.6.0":
+  version: 13.6.0
+  resolution: "stylelint@npm:13.6.0"
   dependencies:
     "@stylelint/postcss-css-in-js": ^0.37.1
     "@stylelint/postcss-markdown": ^0.36.1
-    autoprefixer: ^9.7.6
+    autoprefixer: ^9.8.0
     balanced-match: ^1.0.0
     chalk: ^4.0.0
     cosmiconfig: ^6.0.0
@@ -3016,10 +3018,10 @@ fsevents@~2.1.2:
     file-entry-cache: ^5.0.1
     get-stdin: ^8.0.0
     global-modules: ^2.0.0
-    globby: ^11.0.0
+    globby: ^11.0.1
     globjoin: ^0.1.4
     html-tags: ^3.1.0
-    ignore: ^5.1.4
+    ignore: ^5.1.8
     import-lazy: ^4.0.0
     imurmurhash: ^0.1.4
     known-css-properties: ^0.19.0
@@ -3030,7 +3032,7 @@ fsevents@~2.1.2:
     meow: ^7.0.1
     micromatch: ^4.0.2
     normalize-selector: ^0.2.0
-    postcss: ^7.0.30
+    postcss: ^7.0.32
     postcss-html: ^0.36.0
     postcss-less: ^3.1.4
     postcss-media-query-parser: ^0.2.3
@@ -3038,7 +3040,7 @@ fsevents@~2.1.2:
     postcss-resolve-nested-selector: ^0.1.1
     postcss-safe-parser: ^4.0.2
     postcss-sass: ^0.4.4
-    postcss-scss: ^2.0.0
+    postcss-scss: ^2.1.1
     postcss-selector-parser: ^6.0.2
     postcss-syntax: ^0.36.2
     postcss-value-parser: ^4.1.0
@@ -3051,11 +3053,11 @@ fsevents@~2.1.2:
     sugarss: ^2.0.0
     svg-tags: ^1.0.0
     table: ^5.4.6
-    v8-compile-cache: ^2.1.0
+    v8-compile-cache: ^2.1.1
     write-file-atomic: ^3.0.3
   bin:
     stylelint: bin/stylelint.js
-  checksum: 2/a8c7b0c73a4e6b314f09d17f486165955801be81af6644ab9799cecc563d79a66c98efec7bf055ed87c54c15569dd2b1f863e32bca6b52b8cf0756e43d0fff58
+  checksum: 2/9ef9eeb100a5f17cd29ffdf7ad196fbcac2319b00d2e33b77d6b1468edd511cb5782ee4b300ccf3051ce3edae30f6d5b098693c4c9898b3d2829fe6c1564f484
   languageName: node
   linkType: hard
 
@@ -3340,10 +3342,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"v8-compile-cache@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "v8-compile-cache@npm:2.1.0"
-  checksum: 2/b7490d548401f6f4cadeb94da33b2d65473fb931e1f7c28fba02889c19adf1cfff884fb933c6282fc7e82e400f35eddc9d8fc577fa1e4998cc3797c4aaf6246c
+"v8-compile-cache@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "v8-compile-cache@npm:2.1.1"
+  checksum: 2/1290922fe1501a732155206f2d516f91bdfd7acf318542ffe2813ff06465cf49051fae7e1a40f3e0a56cf78b41f799473f6e389fec0534e4ecc62eb4105cf22f
   languageName: node
   linkType: hard
 
