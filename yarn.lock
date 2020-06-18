@@ -620,6 +620,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "chalk@npm:4.1.0"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: 2/f860285b419f9e925c2db0f45ffa88aa8794c14b80cc5d01ff30930bcfc384996606362706f0829cf557f6d36152a5fb2d227ad63c4bc90e2ec9e9dbed4a3c07
+  languageName: node
+  linkType: hard
+
 "character-entities-html4@npm:^1.0.0":
   version: 1.1.4
   resolution: "character-entities-html4@npm:1.1.4"
@@ -789,7 +799,7 @@ __metadata:
     prettier: 2.0.5
     rimraf: 3.0.2
     sass: 1.26.8
-    stylelint: 13.6.0
+    stylelint: 13.6.1
     stylelint-config-recommended-scss: 4.2.0
     stylelint-config-xo-scss: 0.12.0
     stylelint-scss: 3.17.2
@@ -3003,15 +3013,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint@npm:13.6.0":
-  version: 13.6.0
-  resolution: "stylelint@npm:13.6.0"
+"stylelint@npm:13.6.1":
+  version: 13.6.1
+  resolution: "stylelint@npm:13.6.1"
   dependencies:
     "@stylelint/postcss-css-in-js": ^0.37.1
     "@stylelint/postcss-markdown": ^0.36.1
     autoprefixer: ^9.8.0
     balanced-match: ^1.0.0
-    chalk: ^4.0.0
+    chalk: ^4.1.0
     cosmiconfig: ^6.0.0
     debug: ^4.1.1
     execall: ^2.0.0
@@ -3057,7 +3067,7 @@ fsevents@~2.1.2:
     write-file-atomic: ^3.0.3
   bin:
     stylelint: bin/stylelint.js
-  checksum: 2/9ef9eeb100a5f17cd29ffdf7ad196fbcac2319b00d2e33b77d6b1468edd511cb5782ee4b300ccf3051ce3edae30f6d5b098693c4c9898b3d2829fe6c1564f484
+  checksum: 2/5a56a4ba4259ca20295d2cffb0c52da0273c6386589430172e714713665ca13f8b021d6554ab57e6d43699bf089a6dd74881114e99472a036ce0f8f647445f34
   languageName: node
   linkType: hard
 
