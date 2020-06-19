@@ -802,7 +802,7 @@ __metadata:
     stylelint: 13.6.1
     stylelint-config-recommended-scss: 4.2.0
     stylelint-config-xo-scss: 0.12.0
-    stylelint-scss: 3.17.2
+    stylelint-scss: 3.18.0
   languageName: unknown
   linkType: soft
 
@@ -2998,7 +2998,22 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-scss@npm:3.17.2, stylelint-scss@npm:^3.13.0":
+"stylelint-scss@npm:3.18.0":
+  version: 3.18.0
+  resolution: "stylelint-scss@npm:3.18.0"
+  dependencies:
+    lodash: ^4.17.15
+    postcss-media-query-parser: ^0.2.3
+    postcss-resolve-nested-selector: ^0.1.1
+    postcss-selector-parser: ^6.0.2
+    postcss-value-parser: ^4.1.0
+  peerDependencies:
+    stylelint: ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
+  checksum: 2/cf4a57664ab54e53b721740b46522dba7a3787497cf99fcad6797b5e4fceeb6501334569d9f359435bb5d29f74a81a981ce922893bbf30ed4d42c6097b6500a6
+  languageName: node
+  linkType: hard
+
+"stylelint-scss@npm:^3.13.0":
   version: 3.17.2
   resolution: "stylelint-scss@npm:3.17.2"
   dependencies:
