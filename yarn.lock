@@ -802,7 +802,7 @@ __metadata:
     sass: 1.26.9
     stylelint: 13.6.1
     stylelint-config-recommended-scss: 4.2.0
-    stylelint-config-xo-scss: 0.12.0
+    stylelint-config-xo-scss: 0.13.0
     stylelint-scss: 3.18.0
   languageName: unknown
   linkType: soft
@@ -2357,7 +2357,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:^7.0.32":
+"postcss@npm:^7.0.31, postcss@npm:^7.0.32":
   version: 7.0.32
   resolution: "postcss@npm:7.0.32"
   dependencies:
@@ -2951,31 +2951,31 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-config-xo-scss@npm:0.12.0":
-  version: 0.12.0
-  resolution: "stylelint-config-xo-scss@npm:0.12.0"
+"stylelint-config-xo-scss@npm:0.13.0":
+  version: 0.13.0
+  resolution: "stylelint-config-xo-scss@npm:0.13.0"
   dependencies:
-    stylelint-config-xo: ^0.16.0
+    stylelint-config-xo: ^0.19.0
     stylelint-scss: ^3.13.0
   peerDependencies:
-    stylelint: ">=12"
-  checksum: 78d670abc7a827dc70733b19a2254526626567ac63353dedc02922de33a6bbd1b9483aa3f3cd52d7f0d0ce01607ae124d18b93ba165affae6d9a0ba943cbfc05
+    stylelint: ">=13"
+  checksum: 28117ed94d8bb21c8836a382c8dcbb32afdbc762da2609a7ec5d0c254664f87c9042e3a071c27f57d50809599a283d79bc9353580c3dd980e8cd661abb89735a
   languageName: node
   linkType: hard
 
-"stylelint-config-xo@npm:^0.16.0":
-  version: 0.16.1
-  resolution: "stylelint-config-xo@npm:0.16.1"
+"stylelint-config-xo@npm:^0.19.0":
+  version: 0.19.0
+  resolution: "stylelint-config-xo@npm:0.19.0"
   dependencies:
-    stylelint-declaration-block-no-ignored-properties: ^2.2.0
-    stylelint-order: ^3.1.1
+    stylelint-declaration-block-no-ignored-properties: ^2.3.0
+    stylelint-order: ^4.1.0
   peerDependencies:
-    stylelint: ">=12"
-  checksum: 39d39dbc92627ec083c5030ff6cb926820d6eccf9ad6d3111a2c00a00592dc1849af11532e501b4ca05e0f71b321693d1168866b8fa939d8501d880c32265de8
+    stylelint: ">=13.5.0"
+  checksum: 5ccde92a8e3f78ee349ce1e46b889c434293d681db6d6509d0e73a5c0f21b824c4a4891f27c8d8becd09b8759513f85a8fc4931fa6e25c71a7bb0b7837a1c07b
   languageName: node
   linkType: hard
 
-"stylelint-declaration-block-no-ignored-properties@npm:^2.2.0":
+"stylelint-declaration-block-no-ignored-properties@npm:^2.3.0":
   version: 2.3.0
   resolution: "stylelint-declaration-block-no-ignored-properties@npm:2.3.0"
   dependencies:
@@ -2986,16 +2986,16 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "stylelint-order@npm:3.1.1"
+"stylelint-order@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "stylelint-order@npm:4.1.0"
   dependencies:
     lodash: ^4.17.15
-    postcss: ^7.0.17
+    postcss: ^7.0.31
     postcss-sorting: ^5.0.1
   peerDependencies:
-    stylelint: ">=10.0.1"
-  checksum: 564b435c1e0354a3f4cce067f3028ad99bd2d5cdfabc4f2e7f28b32d07751003eb81996696b78c5b352dc5690755efab5544d1674c64379983e08ec2e567be59
+    stylelint: ^10.0.1 || ^11.0.0 || ^12.0.0 || ^13.0.0
+  checksum: 69f7a6003564d21d4eab2b2f3cf641661b7d2bb34d765446502dc0e12b120234673ed62019aa02d439dd545102124c0b1b6af4f5bafbcff1b8e8d19a408f41c5
   languageName: node
   linkType: hard
 
