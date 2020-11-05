@@ -792,7 +792,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "css-library@workspace:."
   dependencies:
-    postcss-scss: 3.0.2
+    postcss-scss: 3.0.4
     prettier: 2.1.2
     rimraf: 3.0.2
     sass: 1.28.0
@@ -1945,12 +1945,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.12":
-  version: 3.1.12
-  resolution: "nanoid@npm:3.1.12"
+"nanoid@npm:^3.1.16":
+  version: 3.1.16
+  resolution: "nanoid@npm:3.1.16"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: dc51417babadca4b00c2126ac0bc1c01e842e3c40edda2d3e1da40e8aae4d691a2a0b9d8e9c3a8cdb16133345a47f9135f0d0eef85a66ad31711ad3d908050e4
+  checksum: 1903aa0a7602e881ef7015d4c8ccf8a2a92b45b1bd6c4bb9c1dd2119f41ebe08a44c9195ecf4c1fbaef147bd4d050e41adbcb747ec96d7d14c1f662e3ac52790
   languageName: node
   linkType: hard
 
@@ -2297,12 +2297,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:3.0.2":
-  version: 3.0.2
-  resolution: "postcss-scss@npm:3.0.2"
+"postcss-scss@npm:3.0.4":
+  version: 3.0.4
+  resolution: "postcss-scss@npm:3.0.4"
   dependencies:
-    postcss: ^8.1.0
-  checksum: efa4ca2d0bd6d265fc9717c3284d3279c94166b3638cdf545de2b7e3813fdebe61b24322a14ec85fd274ad111793b2394a6bd55bb1b910855c1d5cace4ccb07d
+    postcss: ^8.1.6
+  checksum: e89a53daf1205854e4b31d950e0eb1fb8b16d6eb2dd64617f405a212c96d30418c2332bacd154a841aa2a97f2e27f23172f5e2ce0e5d580ac154cb70725c6017
   languageName: node
   linkType: hard
 
@@ -2385,15 +2385,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.0":
-  version: 8.1.1
-  resolution: "postcss@npm:8.1.1"
+"postcss@npm:^8.1.6":
+  version: 8.1.6
+  resolution: "postcss@npm:8.1.6"
   dependencies:
     colorette: ^1.2.1
     line-column: ^1.0.2
-    nanoid: ^3.1.12
+    nanoid: ^3.1.16
     source-map: ^0.6.1
-  checksum: 9bdc9e51369ee35831589f0cfffcb996ed2b50aa23e54e3cf849c74361c17e7f7c1df3e0b993392818ede40f0731c458be134901ce9438bd38223e38781f52f5
+  checksum: f5cf0fdc7364cb3eeb2d3056cd68ef9e74ecbc8874481173491961c2bbe5c79967e71bace1457fafce87f5265da439b3ffb9f0834c9ffeaedcb6946c86026e66
   languageName: node
   linkType: hard
 
