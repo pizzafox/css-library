@@ -8,7 +8,7 @@
 		"postcss-scss": "3.0.4",
 		"prettier": "2.2.1",
 		"rimraf": "3.0.2",
-		"sass": "1.29.0",
+		"sass": "1.30.0",
 		"stylelint": "13.8.0",
 		"stylelint-config-recommended-scss": "4.2.0",
 		"stylelint-config-xo-scss": "0.14.0",
