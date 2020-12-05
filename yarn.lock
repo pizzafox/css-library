@@ -783,7 +783,7 @@ __metadata:
     postcss-scss: 3.0.4
     prettier: 2.2.1
     rimraf: 3.0.2
-    sass: 1.29.0
+    sass: 1.30.0
     stylelint: 13.8.0
     stylelint-config-recommended-scss: 4.2.0
     stylelint-config-xo-scss: 0.14.0
@@ -2765,14 +2765,14 @@ resolve@^1.17.0:
   languageName: node
   linkType: hard
 
-"sass@npm:1.29.0":
-  version: 1.29.0
-  resolution: "sass@npm:1.29.0"
+"sass@npm:1.30.0":
+  version: 1.30.0
+  resolution: "sass@npm:1.30.0"
   dependencies:
     chokidar: ">=2.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 8114e0c4e73be695d25030f51bff8da0151f335b135869e926d39e21688cd81a6be0368a332caec40425e64df499bd34962aa4ca59926a6bd0e11aa43ac306d9
+  checksum: 8bbaf43df42290902d0d325bcbaef5e43409ad5bd4de8447d0f94dc7e6571aec191c26045e06de2d1c38d22cf7ee33b58b9f1a99e4451743d9841f40ab837d10
   languageName: node
   linkType: hard
 
